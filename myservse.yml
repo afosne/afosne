@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: heroku美国, server: 162.159.137.4, port: 443, type: vmess, uuid: 427e383d-7b86-4dd6-a031-48f65a059da6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: afosne-heroku美国-v2.2032183746.workers.dev}}, udp: true}
-  - {name: heroku欧洲, server: 162.159.137.4, port: 443, type: vmess, uuid: 22c016fc-3cfb-4d36-81d9-eb917a99c9dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: afosne-heroku美国-v1.2032183746.workers.dev}}, udp: true}
+  - {name: heroku美国, server: 162.159.137.4, port: 443, type: vmess, uuid: 427e383d-7b86-4dd6-a031-48f65a059da6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: afosne-heroku-v2.2032183746.workers.dev}}, udp: true}
+  - {name: heroku欧洲, server: 162.159.137.4, port: 443, type: vmess, uuid: 22c016fc-3cfb-4d36-81d9-eb917a99c9dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: afosne-heroku-v1.2032183746.workers.dev}}, udp: true}
   - {name: 甲骨文日本, server: 155.248.171.198, port: 443, type: vmess, uuid: a95f1f97-7b9e-42c9-8ebc-3cf49461a2ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /i6uBm, headers: {Host: vls.lelan.tk}}, udp: true}
   - {name: az香港, server: 23.97.79.17, port: 9999, type: vmess, uuid: 9b6a0efa-c765-44d5-b621-eba08fc49832, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 新加坡, server: sg.ip6to4.com, port: 443, type: vmess, uuid: f4f7252a-7100-48e7-a2e5-b0334e845c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /fastssh/1814616798/6240c75a9dffa/, ws-headers: {Host: sg.ip6to4.com}, udp: true}
